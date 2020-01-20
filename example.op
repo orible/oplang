@@ -1,0 +1,14 @@
+#name example program
+#author orlando crawford 2019
+
+.foobar 
+    PUSH r1
+    POP
+    
+.main
+    ADD RF 1
+    ADD R1 1
+    ADD R1 1
+    ADD R2 1
+    ADD R1 R1 R2 #dest(r1) = reg1 +  reg2
+    JEQ foobar R1 3

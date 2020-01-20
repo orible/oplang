@@ -1,0 +1,11 @@
+//io
+MOV in, abx
+
+
+//logic
+JMP <.function>
+
+//stack memory
+//PUSH <number>
+
+ADD <const> || <register>
